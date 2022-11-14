@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  background-color: #040c20;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:#f3f3f3;
+}
+.title {
+  font-weight: 900;
+  font-size:bold;
+}
+
+.wrapper{
+  max-width: 1440px;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-form{
+  width: 400px;
+  height: auto;
+  margin: 20px auto;
+}
+
+.input-and-btn{
+  display: flex;
+}
+
+.todo-box{
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.todo-box .content{
+  display: flex;
+}
+
+.todo-box .content p{
+  margin-top: -6px;
+  margin-left: 6px;
+}
+
+.todo-box span{
+  margin: 0 5px;
+}
+
+.plus {
+  background-color: #D61C4E !important;
+  color: #f3f3f3 !important;
+  margin-left: 10px;
+}
+
+.delete-all{
+  padding-right: 5px;
+  width: 400px;
+  height: 40px;
+  background-color: #D61C4E !important;
+  color: #f3f3f3 !important;
+}
+
+.actions-box{
+  cursor: pointer;
+}
+
+.back-btn{
+  margin-top: 5px;
+  width: 100%;
+}
